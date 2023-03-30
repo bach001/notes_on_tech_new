@@ -21,6 +21,13 @@ htop shows that 2 processes(xdg-open and kde-open5) are too busy forking themsel
 
 Googling results some related links
 
+
+# this description is strongly related
+
+Whenever xdg-open encounters a file it does not have a default application associated with it forks itself.
+
+Because there's no default application association "open with" disappeared 
+
 https://github.com/microsoft/vscode/issues/82430
 https://superuser.com/questions/1007807/xdg-open-hogging-the-cpu-by-forking-itself-endlessly
 
